@@ -66,11 +66,11 @@ To fix vague answers, use the **C.R.O. framework**:
 Don't just tell the AI what to do; show it. This is called "Few-Shot Prompting".
 **Weak Prompt:** "Write a tweet about our new coffee."
 **Few-Shot Prompt:**
-    > \"I want you to write a tweet about our new coffee. Here are three examples of our brand tone:
-    > 1. 'Wake up wild. The Sumatra blend is here. ☕'
-    > 2. 'Smooth, dark, and dangerous. Meet the Midnight Roast.'
-    > 3. 'Your Monday morning rescue has arrived.'
-    > Now, write a new one for our 'Vanilla Sky' blend following this style."
+> \"I want you to write a tweet about our new coffee. Here are three examples of our brand tone:
+> 1. 'Wake up wild. The Sumatra blend is here. ☕'
+> 2. 'Smooth, dark, and dangerous. Meet the Midnight Roast.'
+> 3. 'Your Monday morning rescue has arrived.'
+> Now, write a new one for our 'Vanilla Sky' blend following this style."
 
 ### Can I trust it? (The "Panel of Experts")
 AI models hallucinate. If the answer is critical (medical, legal, coding):
