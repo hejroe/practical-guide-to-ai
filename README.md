@@ -56,7 +56,7 @@ If you need absolute, sovereign privacy, you must move to **Level 3**.
 ## Level 2: The Power User (The Art of Prompting)
 The difference between a frustrating experience and a "superhuman" one is the Prompt.
 
-###The Golden Rule: Garbage In, Garbage Out
+### The Golden Rule: Garbage In, Garbage Out
 To fix vague answers, use the **C.R.O. framework**:
 * **Context:** Who is the AI? (e.g., "Act as a senior marketing manager").
 * **Request:** What do you need? (e.g., "Write a client email").
