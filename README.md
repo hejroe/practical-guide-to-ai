@@ -170,3 +170,6 @@ While AI feels magic, the law is cold.
 * **No Indemnity:** Most Terms of Service offer no protection if you are sued based on AI output.
 
 *Note:* This legislation is fluid. Keep an eye on updates from the UK Government regarding AI regulation.
+
+### Being a Better Human
+AI tools are just that, tools. They can help us achieve more than we can by our own efforts alone. By embracing the technology we can give ourselves super powers to enable us to create, solve problems and to ultimately give us more time to be more human. Those who acquire AI skills can accomplish great things.
