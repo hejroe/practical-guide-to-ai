@@ -23,6 +23,8 @@ It can be confidently wrong: It might predict a fact that sounds plausible but i
 **Fast AI (Chatbots):** Tools like standard ChatGPT or Claude. They answer instantly based on patterns. Good for writing and brainstorming.
 **Slow AI (Reasoning Models):** Newer models (like OpenAI's o1 series). These "think" before they speak, taking time to verify logic. Use these for complex maths, coding, or strategy.
 
+---
+
 ## Level 1: The Browser User (Cloud AI)
 For 95% of people, this is where the journey starts and ends. These are "Cloud" tools, accessed via a web browser or app. The heavy lifting is done on massive computers elsewhere.
 
@@ -53,6 +55,8 @@ Even if you pay for "Business" or "Enterprise" tiers which promise not to train 
 * **Server Logs:** Your data still exists on a server, somewhere.
 If you need absolute, sovereign privacy, you must move to **Level 3**.
 
+---
+
 ## Level 2: The Power User (The Art of Prompting)
 The difference between a frustrating experience and a "superhuman" one is the Prompt.
 
@@ -77,6 +81,8 @@ AI models hallucinate. If the answer is critical (medical, legal, coding):
 1. Ask the question to ChatGPT.
 2. Ask the same question to Claude or Perplexity.
 3. Compare the answers. If they disagree, verify manually.
+
+---
 
 ## Level 3: The Sovereign User (Local AI)
 For the "tinkerers" and the privacy-conscious. This runs AI on your own hardware. No internet required, no monthly fees, total privacy.
@@ -106,12 +112,61 @@ You don't just "download AI"; you choose a model:
 **Mistral:** A highly efficient European model.
 **Qwen:** Excellent for logic and coding.
 
+---
+
+## Making it Work for You (Practical Tactics)
+
+There are some who will try to sell you courses on "Prompt Engineering". The reality is that this is little more than a sales term. If you have ever had to explain a complex task to a colleague, you already have the skills to enable you to become a power user.
+
+Good questions and clear abstractions are often all that is needed. Before you hit "Enter", run your prompt through the **5 Ws**:
+
+*   **Who** are you asking the AI to be? (A lawyer? A coder? A creative writer?)
+*   **What** exactly do you want? (A table? An essay? A list?)
+*   **When** is this relevant? (Is it historical, or do you need current news?)
+*   **Where** will this be used? (On LinkedIn? In an internal memo? In a Python script?)
+*   **Why** are you asking? (To persuade? To inform? To entertain?)
+
+By answering these questions yourself, even partly, you force the AI to narrow its focus, resulting in significantly higher-quality answers.
+
+### Managing "Context Drift"
+Although AI systems are getting better at long conversations, they suffer from "Context Drift". This becomes apparent the longer a chat goes on, especially if you pivot to new topics.
+*   **The Problem:** If you spend 20 minutes discussing car mechanics and then suddenly ask about Ancient Rome, the AI may try to draw bizarre comparisons between chariots and carburetors.
+*   **The Fix:** If you change the subject, **start a new chat**. Treat each chat window as a separate "project folder". Do not pollute your workspace.
+
+### "Cheat Codes": Phrases that Work
+You don't need to learn code, but certain phrases act like triggers for the AI to perform better. Adding these to the end of your prompt can upgrade the output instantly:
+*   **"Use industry best practices and standards."** (Stops it from giving you lazy or outdated advice).
+*   **"Ensure the work is of the highest quality."** (Forces the model to allocate more computing power/logic to the answer).
+*   **"Trust but verify."** (Tells the AI to cite sources or double-check its math).
+*   **"Explain your thinking step-by-step."** (Crucial for maths or logic—it reduces errors significantly).
+
+### Do Not Re-invent the Wheel
+There is already a huge library of prompts available online. Just performing a search for *"Best ChatGPT prompt for writing a CV"* or *"Claude prompt for analysing financial data"* will give you thousands of results.
+*   **Steal like an artist:** Look for "System Prompts" or "Mega Prompts" that others have refined.
+*   **Ask the AI:** If you are stuck, ask the AI itself: *"I need to write a report on X. What allows you to give me the best results? Write the prompt for me."*
+
+### The "Sandwich" Method (Using Delimiters)
+A common practical failure is pasting a messy document into the chat and then typing instructions at the bottom. The AI gets confused about where the text ends and your instructions begin.
+To fix this, use **Delimiters**. Wrap the data you want analysed in triple quotes or hashes.
+
+**Example:**
+> Please summarise the text below into three bullet points.
+>
+> """
+> [Paste your messy email or document here]
+> """
+
+This acts as a clear fence, telling the AI: "Everything inside the quotes is data; everything outside is instruction."
+
+---
+
 ## Final Thoughts: Cost, Risk, and Humanity
 ### The Price of Admission
 Avoid "Wrapper" apps in App Stores charging weekly subscriptions. Use the official apps (Level 1) or Open Source tools (Level 3). Unless you are an enterprise user, you rarely need to pay.
 ### Who is to Blame? (UK Legal Context)
 While AI feels magic, the law is cold.
-**Copyright:** Under current UK guidance (IPO), works created purely by AI may not be copyrightable by you. You own the prompt, not necessarily the output.
-**Liability:** You are the pilot. If an AI writes a defamatory article or insecure code and you publish it, you are liable.
-**No Indemnity:** Most Terms of Service offer no protection if you are sued based on AI output.
+* **Copyright:** Under current UK guidance (IPO), works created purely by AI may not be copyrightable by you. You own the prompt, not necessarily the output.
+* **Liability:** You are the pilot. If an AI writes a defamatory article or insecure code and you publish it, you are liable.
+* **No Indemnity:** Most Terms of Service offer no protection if you are sued based on AI output.
+
 *Note:* This legislation is fluid. Keep an eye on updates from the UK Government regarding AI regulation.
