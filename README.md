@@ -104,7 +104,7 @@ The easiest way to use llama.cpp. It runs in the background and manages your mod
 **3. The Interface: LM Studio or OpenWebUI**
 These provide a nice chat window that connects to the engine, looking just like ChatGPT.
 **4. The File Format: GGUF**
-When downloading models (from sites like Hugging Face), always look for files ending in **.ggu** or **.gguf**. This is the standard format for local AI.
+When downloading models (from sites like Hugging Face), always look for files ending in **.gguf**. This is the standard format for local AI using Ollama.
 
 **A Note on Models**
 You don't just "download AI"; you choose a model:
